@@ -1,0 +1,10 @@
+@import './variables.css';
+
+* {
+
+}
+
+main section article table {
+    text-align: center;
+    margin: 1%;
+}
