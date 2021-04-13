@@ -15,6 +15,9 @@ section ul {
     justify-content: space-evenly;
     list-style: none;
     font-size: 80%;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 section ul li a {
@@ -63,10 +66,27 @@ nav ul li a {
     border-bottom: 0.2em solid white;
 }
 
+nav a:hover, nav a:focus {
+    background: linear-gradient(to left, var(--color-background-light), var(--color-coral-salmon));
+}
+
 
 main section article table {
     text-align: center;
     margin: 1%;
+}
+
+aside {
+    width: 25%;
+    color: white;
+    border: 0.2rem solid var(--color-robot-red);
+    margin-left: 2rem;
+    margin-right: 5rem;
+    text-align: center;
+}
+
+aside figure img {
+    width: 100%;
 }
 
 footer ul {
