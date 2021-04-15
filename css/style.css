@@ -38,6 +38,7 @@ header figure img{
     float: left;
     margin-right: 10em;
     color: white;
+    background: white;
 }
 
 header h2 {
@@ -55,8 +56,11 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row;
+}
+
+nav ul li {
+    margin-right: 5%;
 }
 
 
@@ -75,6 +79,33 @@ main section article table {
     text-align: center;
     margin: 1%;
 }
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 0.2rem solid var(--color-purple-grey);
+    margin-left: 1%;
+    width: 38em;
+}
+
+.principal img {
+    width: 36em;
+}
+
+.article_1 {
+    border: 0.5rem solid var(--color-purple-grey);
+    background: linear-gradient(to left, var(--color-background-light), var(--color-purple-grey));
+    border: 0.5rem solid var(--color-coral-salmon);
+    margin-right: 10%;
+}
+
+.article_2 {
+    border: 0.5rem solid var(--color-purple-grey);
+    background: linear-gradient(to left, var(--color-background-light), var(--color-purple-grey));
+    border: 0.5rem solid #8B2ED7;
+}
+
 
 aside {
     width: 25%;
@@ -108,4 +139,12 @@ footer {
     background:linear-gradient(to left, var(--color-purple-br), var(--color-background-dark));
 }
 
+.table {
+    background: linear-gradient(to left, var(--color-background-dark), var(--color-background-light));
+    width: 50em;
+}
+
+.table_article {
+
+}
 
