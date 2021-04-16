@@ -107,9 +107,12 @@ main section article table {
     width: 50%;
     border: 0.2rem solid var(--color-coral-salmon);
     float: left;
-    border-radius: 10% 0 10% 0;
+    /* border-radius: 10% 0 10% 0; */
 }
 
+th {
+    background: var(--color-purple-grey);
+}
 
 
 .article_1 {
@@ -131,12 +134,13 @@ main section article table {
 aside {
     width: 25%;
     color: white;
-    border: 0.2rem solid var(--color-coral-salmon);
+    border: 0.2rem solid var(--color-purple-br);
     margin-left: 2rem;
     margin-right: 5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border-radius: 10% 0 10% 0;
 }
 
 aside figure img {
