@@ -122,6 +122,10 @@ main section article table {
     background-color: var(--color-background-light);
 }
 
+.table tr td:hover {
+    background: #213e58;
+}
+
 
 th {
     background: var(--color-purple-grey);
